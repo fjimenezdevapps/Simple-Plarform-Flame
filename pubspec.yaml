@@ -1,0 +1,42 @@
+name: platform_game
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flame: ^1.21.0
+  flame_tiled: ^1.21.0
+  flame_audio: ^2.10.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/audio/
+  - assets/images/terrain/
+  - assets/images/Background/
+  - assets/images/Main Characters/
+  - assets/images/Items/Checkpoints/Checkpoint/
+  - assets/images/Main Characters/Mask Dude/
+  - assets/images/Main Characters/Ninja Frog/
+  - assets/images/Main Characters/Pink Man/
+  - assets/images/Main Characters/Virtual Guy/
+  - assets/images/Items/Fruits/
+  - assets/images/Traps/Saw/
+  - assets/images/Traps/Falling Platforms/
+  - assets/images/HUD/
+  - assets/images/HearTile/
+  - assets/images/Items/Barrel/
+  - assets/tiles/
+  - assets/images/Menu/Text/
+  - assets/images/Enemies/Chicken/
+  - assets/images/Other/
